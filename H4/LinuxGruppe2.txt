@@ -1,13 +1,19 @@
 Gruppe 2 - Når jeg lister et directory med ls -l får jeg ud for elemterne en række bogstaver, måske med bindestreger imellem
 - Hvilke forskellige bogstaver kan jeg støde på og hvad betyder de?
+
+
     - Du får de read/write rettigheder som en bruger og en gruppe har.
 - Hvad betyder de resterende bogstaver
+
      -d betyder at det er et directory og x betyder det er en executeable.
 - Efter alle bogstaverne står to "navne", hvad fortæller de?
+
+
 - Hvilke andre parametre kan jeg sætte efter ls, og hvad gør de ved resutlatet?
 - Hvordan opretter jeg en bruger og en gruppe?
     - Bruger: 
         - sudo useradd <name>, sudo passwd <name>
+        - sudo useradd <name>  -p <password>
     -Gruppe:
         - sudo groupadd <name>
 
@@ -17,5 +23,7 @@ Gruppe 2 - Når jeg lister et directory med ls -l får jeg ud for elemterne en r
         - sudo usermod -ag <group> <name>
     - Liste af grupper:
         - groups <name> eller id <name>
-- Hvordan ændrer jeg ejerskabet eller gruppetilhørsforhold på en folder/fil?
+soud- Hvordan ændrer jeg ejerskabet eller gruppetilhørsforhold på en folder/fil?
+
+sudo chown <nye ejer_brugernavn> fuck.txt
 - Hvad er sudo gruppen, og hvorfor er den der?
