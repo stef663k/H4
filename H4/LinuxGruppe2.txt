@@ -13,6 +13,8 @@ Gruppe 2 - Når jeg lister et directory med ls -l får jeg ud for elemterne en r
         - sudo groupadd <name>
 
 - Hvordan melder jeg en bruger til en gruppe
+  Sudo usermod -g <gruppenavn> <Brugernavn>
+
  og hvordan ser jeg hvilke grupper en bruger er medlem af?
     -Add bruger:
         - sudo usermod -ag <group> <name>
