@@ -113,6 +113,7 @@ Gruppe 2 - Når jeg lister et directory med ls -l får jeg ud for elemterne en r
   -1                         list one file per line
       --help        display this help and exit
       --version     output version information and exit
+      help me
 - Hvordan opretter jeg en bruger og en gruppe?
     - Bruger: 
         - sudo useradd <name>, sudo passwd <name>
