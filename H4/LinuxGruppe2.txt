@@ -21,5 +21,6 @@ Gruppe 2 - Når jeg lister et directory med ls -l får jeg ud for elemterne en r
     - Liste af grupper:
         - groups <name> eller id <name>
 - Hvordan ændrer jeg ejerskabet eller gruppetilhørsforhold på en folder/fil?
+    sudo chown <Nye ejernavn> <Path>
 - Hvad er sudo gruppen, og hvorfor er den der?
     -sudo giver brugeren adimistrator rettigheder på den ene command.
