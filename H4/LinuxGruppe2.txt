@@ -116,16 +116,14 @@ Gruppe 2 - Når jeg lister et directory med ls -l får jeg ud for elemterne en r
       help me
 - Hvordan opretter jeg en bruger og en gruppe?
     - Bruger: 
-        - sudo useradd <name>, sudo passwd <name>
+        - sudo useradd <name> -p <password>
     -Gruppe:
-        - sudo groupadd <name>
+        - sudo groupadd <name> 
 
 - Hvordan melder jeg en bruger til en gruppe
   Sudo usermod -g <gruppenavn> <Brugernavn>
 
  og hvordan ser jeg hvilke grupper en bruger er medlem af?
-    -Add bruger:
-        - sudo usermod -ag <group> <name>
     - Liste af grupper:
         - groups <name> eller id <name>
 - Hvordan ændrer jeg ejerskabet eller gruppetilhørsforhold på en folder/fil?
