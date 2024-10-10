@@ -116,7 +116,7 @@ Gruppe 2 - Når jeg lister et directory med ls -l får jeg ud for elemterne en r
       help me
 - Hvordan opretter jeg en bruger og en gruppe?
     - Bruger: 
-        - sudo useradd <name>, sudo passwd <name>
+        - sudo useradd <name> -p <password>
     -Gruppe:
         - sudo groupadd <name> 
 
