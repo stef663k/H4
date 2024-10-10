@@ -131,6 +131,9 @@ Gruppe 2 - Når jeg lister et directory med ls -l får jeg ud for elemterne en r
 - Hvordan ændrer jeg ejerskabet eller gruppetilhørsforhold på en folder/fil?
 
     sudo chown <Nye ejernavn> <Path>
+    
+    -for at ændre gruppen:
+    sudo chgrp <bruger> <file>
 
 - Hvad er sudo gruppen, og hvorfor er den der?
     -sudo giver brugeren adimistrator rettigheder på den ene command.
