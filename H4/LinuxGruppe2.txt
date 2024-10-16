@@ -124,6 +124,7 @@ Gruppe 2 - Når jeg lister et directory med ls -l får jeg ud for elemterne en r
   Sudo usermod -g <gruppenavn> <Brugernavn>
 
  og hvordan ser jeg hvilke grupper en bruger er medlem af?
+
     - Liste af grupper:
         - groups <name> eller id <name>
 - Hvordan ændrer jeg ejerskabet eller gruppetilhørsforhold på en folder/fil?
